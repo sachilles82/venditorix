@@ -25,4 +25,11 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+//    Route::get('/objection', function () {
+//        return view('objection');
+//    })->name('objection');
+//    Route::get('tasks', function () {
+//        return view('tasks.index');
+//    })->name('tasks.index');
 });
+Route::resource('tasks', \App\Http\Controllers\TaskController::class);

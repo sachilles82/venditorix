@@ -15,6 +15,12 @@
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+{{--                    <x-nav-link href="{{ route('objection') }}" :active="request()->routeIs('objection')">--}}
+{{--                        {{ __('Objection') }}--}}
+{{--                    </x-nav-link>--}}
+                    <x-nav-link href="{{ route('tasks.index') }}" :active="request()->routeIs('tasks.index')">
+                        {{ __('Tasks') }}
+                    </x-nav-link>
                 </div>
             </div>
 
