@@ -33,3 +33,4 @@ Route::middleware([
 //    })->name('tasks.index');
 });
 Route::resource('tasks', \App\Http\Controllers\TaskController::class);
+Route::resource('objections', \App\Http\Controllers\ObjectionController::class);
