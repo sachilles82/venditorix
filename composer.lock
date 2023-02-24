@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1a9e0c9d6a70b7144ba636dc345e2fd",
+    "content-hash": "8c9d1cdf8faeda6e47ba744c68178586",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -860,16 +860,16 @@
         },
         {
             "name": "filament/filament",
-            "version": "v2.17.4",
+            "version": "v2.17.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/app.git",
-                "reference": "25a5b2f4bb5e1603714585988009c0082edb9a24"
+                "reference": "7ba321c1ac6e87550c3d8839dcf6bf6a15c3251f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/app/zipball/25a5b2f4bb5e1603714585988009c0082edb9a24",
-                "reference": "25a5b2f4bb5e1603714585988009c0082edb9a24",
+                "url": "https://api.github.com/repos/filamentphp/app/zipball/7ba321c1ac6e87550c3d8839dcf6bf6a15c3251f",
+                "reference": "7ba321c1ac6e87550c3d8839dcf6bf6a15c3251f",
                 "shasum": ""
             },
             "require": {
@@ -919,20 +919,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2023-02-20T22:54:32+00:00"
+            "time": "2023-02-23T21:55:29+00:00"
         },
         {
             "name": "filament/forms",
-            "version": "v2.17.4",
+            "version": "v2.17.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/forms.git",
-                "reference": "faf9e4bcc8a34f9313cb68317ec938b69669dafd"
+                "reference": "5af47619fe003c509b16eb9b1e9af4b1bf2279ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/forms/zipball/faf9e4bcc8a34f9313cb68317ec938b69669dafd",
-                "reference": "faf9e4bcc8a34f9313cb68317ec938b69669dafd",
+                "url": "https://api.github.com/repos/filamentphp/forms/zipball/5af47619fe003c509b16eb9b1e9af4b1bf2279ff",
+                "reference": "5af47619fe003c509b16eb9b1e9af4b1bf2279ff",
                 "shasum": ""
             },
             "require": {
@@ -977,20 +977,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2023-02-20T22:54:27+00:00"
+            "time": "2023-02-23T21:55:28+00:00"
         },
         {
             "name": "filament/notifications",
-            "version": "v2.17.4",
+            "version": "v2.17.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/notifications.git",
-                "reference": "bd10ae1c744ed5c8e988ed7e4668bf6975e2cea1"
+                "reference": "98a3434533e9b0d501b17774d4c1d2bae1b24913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/notifications/zipball/bd10ae1c744ed5c8e988ed7e4668bf6975e2cea1",
-                "reference": "bd10ae1c744ed5c8e988ed7e4668bf6975e2cea1",
+                "url": "https://api.github.com/repos/filamentphp/notifications/zipball/98a3434533e9b0d501b17774d4c1d2bae1b24913",
+                "reference": "98a3434533e9b0d501b17774d4c1d2bae1b24913",
                 "shasum": ""
             },
             "require": {
@@ -1030,20 +1030,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2023-02-20T22:54:33+00:00"
+            "time": "2023-02-23T21:55:22+00:00"
         },
         {
             "name": "filament/support",
-            "version": "v2.17.4",
+            "version": "v2.17.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/support.git",
-                "reference": "a4498f099f9d00ef8e1438abf68f01f1109a42b4"
+                "reference": "f214bec84e41f5ad3e2c238e93dfe88d3c735773"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/support/zipball/a4498f099f9d00ef8e1438abf68f01f1109a42b4",
-                "reference": "a4498f099f9d00ef8e1438abf68f01f1109a42b4",
+                "url": "https://api.github.com/repos/filamentphp/support/zipball/f214bec84e41f5ad3e2c238e93dfe88d3c735773",
+                "reference": "f214bec84e41f5ad3e2c238e93dfe88d3c735773",
                 "shasum": ""
             },
             "require": {
@@ -1080,20 +1080,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2023-02-20T22:54:49+00:00"
+            "time": "2023-02-23T21:55:29+00:00"
         },
         {
             "name": "filament/tables",
-            "version": "v2.17.4",
+            "version": "v2.17.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/tables.git",
-                "reference": "474871485805bfd5ce6feff1067b0bfbe683e93e"
+                "reference": "3a68b38cf9e5119f9b10efc85207dbd316347d23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/tables/zipball/474871485805bfd5ce6feff1067b0bfbe683e93e",
-                "reference": "474871485805bfd5ce6feff1067b0bfbe683e93e",
+                "url": "https://api.github.com/repos/filamentphp/tables/zipball/3a68b38cf9e5119f9b10efc85207dbd316347d23",
+                "reference": "3a68b38cf9e5119f9b10efc85207dbd316347d23",
                 "shasum": ""
             },
             "require": {
@@ -1136,7 +1136,7 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2023-02-20T22:54:48+00:00"
+            "time": "2023-02-24T11:27:40+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1687,6 +1687,75 @@
             "time": "2021-10-07T12:57:01+00:00"
         },
         {
+            "name": "hotwired/turbo-laravel",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hotwired-laravel/turbo-laravel.git",
+                "reference": "f17545613031a0ce77214a8ca7921e0021740548"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hotwired-laravel/turbo-laravel/zipball/f17545613031a0ce77214a8ca7921e0021740548",
+                "reference": "f17545613031a0ce77214a8ca7921e0021740548",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^8.47|^9.0|^10.0",
+                "php": "^8.0|^8.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.24|^7.0|^8.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "\\Tonysm\\TurboLaravel\\TurboServiceProvider"
+                    ],
+                    "aliases": {
+                        "Turbo": "\\Tonysm\\TurboLaravel\\Facades\\Turbo",
+                        "TurboStream": "\\Tonysm\\TurboLaravel\\Facades\\TurboStream"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php",
+                    "src/globals.php"
+                ],
+                "psr-4": {
+                    "Tonysm\\TurboLaravel\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tony Messias",
+                    "email": "tonysm@hey.com",
+                    "homepage": "https://tonysm.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Turbo Laravel gives you a set of conventions to make the most out of the Hotwire stack (inspired by turbo-rails gem).",
+            "homepage": "https://github.com/tonysm/turbo-laravel",
+            "keywords": [
+                "hotwire",
+                "hotwired",
+                "turbo",
+                "turbo-laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/hotwired-laravel/turbo-laravel/issues",
+                "source": "https://github.com/hotwired-laravel/turbo-laravel/tree/1.11.0"
+            },
+            "time": "2023-02-04T00:59:59+00:00"
+        },
+        {
             "name": "jaybizzle/crawler-detect",
             "version": "v1.2.113",
             "source": {
@@ -1886,16 +1955,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.1.4",
+            "version": "v10.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "da95415a83fe6216dc78efebfc311365cf4cade0"
+                "reference": "57850ab537cf0554b5b616215079c761b98168c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/da95415a83fe6216dc78efebfc311365cf4cade0",
-                "reference": "da95415a83fe6216dc78efebfc311365cf4cade0",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/57850ab537cf0554b5b616215079c761b98168c8",
+                "reference": "57850ab537cf0554b5b616215079c761b98168c8",
                 "shasum": ""
             },
             "require": {
@@ -2082,7 +2151,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-23T12:25:38+00:00"
+            "time": "2023-02-24T09:57:13+00:00"
         },
         {
             "name": "laravel/jetstream",
