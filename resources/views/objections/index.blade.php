@@ -1,17 +1,15 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Objections List') }}
-        </h2>
-    </x-slot>
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
+    <div class="py-6">
+        <x-slot name="header">
+                {{ __('Objections List') }}
+        </x-slot>
+
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 {{--                <x-welcome />--}}
-                <div class="mt-0 flow-root">
-                    <div class="-my-2 -mx-6 overflow-x-auto lg:-mx-8">
-                        <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-                            <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:rounded-lg">
+            <div class="mt-8 flow-root">
+                <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                        <table class="min-w-full divide-y divide-gray-300">
                                 <table class="min-w-full divide-y divide-gray-300">
                                     <thead class="bg-gray-50">
                                     <tr>
@@ -31,7 +29,7 @@
                                     <!-- More people... -->
                                     </tbody>
                                 </table>
-                            </div>
+
                         </div>
                     </div>
                 </div>

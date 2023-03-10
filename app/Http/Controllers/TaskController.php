@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreTaskRequest;
+use App\Http\Requests\UpdateTaskRequest;
 use App\Models\Task;
 use Illuminate\Http\Request;
 
@@ -12,9 +14,10 @@ class TaskController extends Controller
      */
     public function index()
     {
-        $tasks = Task::all();
+        $tasks = Task::paginate(10);
         return view('tasks.index', compact('tasks'));
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -27,9 +30,14 @@ class TaskController extends Controller
     /**
      * Store a newly created resource in storage.
      */
+//    public function store(StoreTaskRequest $request)
     public function store(Request $request)
     {
+
+        //hier erstelle ich die tasks
         Task::create($request->all());
+
+
         return redirect()->route('tasks.index');
     }
 
@@ -53,6 +61,7 @@ class TaskController extends Controller
      * Update the specified resource in storage.
      */
     public function update(Request $request, Task $task)
+//    public function update(UpdateTaskRequest $request, Task $task)
     {
         $task->update($request->all());
         return redirect()->route('tasks.index');
